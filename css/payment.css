@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}.foot{
+    margin-top: 0px !important;
+    background-color: rgb(15, 15, 49) !important;
+}
+.hrfoot{
+    border-color: white !important;
+}
+.mainPayment{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fdivPament{
+    margin: 40px 30px;
+    width: 40%;
+    min-height: 100px;
+    padding: 40px;
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(161, 161, 161);
+    outline: 1px solid silver;
+    box-shadow: 0px 0px 15px gray;
+    text-align: center;
+}
+.fdivformPayment{
+    text-align: center;
+}
+.h2pm{
+    display: inline-block;
+    padding-right: 20px;
+    font-family: "Audiowide";
+}
+.btnP{
+    border: 1px solid rgb(15, 15, 49);
+    position: relative;
+    top: -10px;
+    background-color: white;
+}
+.btnP:hover{
+    background-color: rgb(167, 167, 167);
+}
+.own{
+    color: rgb(15, 15, 49);
+    font-family: serif;
+}
+.div2{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.inpOwner{
+    width: 100%;
+}
+.inpOwner:hover{
+    border: 1px solid black;
+}
+.div3{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.expDays{
+    height: 25px;
+}
+.expDays:hover,.selMonths:hover{border: 1px solid black;}
+.btnDone{
+    margin-top: 20px;
+    background-color: rgb(15, 15, 49);
+    color: rgb(255, 115, 0);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    font-family: "Audiowide";
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease-in-out 250ms;
+}
+.btnDone:active,.btnDone:focus{
+    outline: none;
+}
+.btnDone:hover{
+    background-color: rgb(255, 115, 0);
+    color: rgb(15, 15, 49);
+    transition: ease-in-out 250ms;
+}
+.btnBack{
+    border: none;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: rgb(15, 15, 49);
+    font-weight: bold;
+    font-family: "Audiowide";
+    font-size: 19px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: ease-in-out 250ms;
+}
+.btnBack:active,.btnBack:focus,.buyBtn:focus,.buyBtn:active{
+    outline: none;
+}
+.btnBack:hover{
+    color: rgb(255, 199, 153);
+    transition: ease-in-out 250ms;
+    border: 1px solid rgb(255, 199, 153);
+}
+
+
+/* media */
+@media (max-width: 768px){
+    .fdivPament{
+        margin: 40px 30px;
+        width: 80%;
+        padding: 40px;
+    }
+    .div3{
+        padding-right: 20px;
+    }
+}
+@media (max-width: 576px){
+    .fdivPament{
+        margin: 40px 30px;
+        width: 90%;
+        padding: 40px;
+    }
+    .div2,.div3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

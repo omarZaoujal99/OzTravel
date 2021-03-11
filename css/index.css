@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.divSearch{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.divSearchMain{
+    width: 80%;
+    height: 80%;
+    background-image: url("../pics/bgSearch.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.searchDiv{
+    width: 40%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 4%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.selSearch{
+    width: 80%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-bottom: 2px solid rgb(255, 115, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    transition: ease-in-out 300ms;
+    margin: 5px 0px;
+    font-family: "Audiowild";
+    cursor: pointer;
+}
+.selSearch:hover{
+    color: rgb(255, 221, 194);
+    transition: ease-in-out 300ms;
+    border-color: rgb(255, 221, 194);
+}
+.btnSearch{
+    width: 70px;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 15, 49);
+    transition: ease-in-out 300ms;
+    border-bottom: 2px solid rgb(15, 15, 49);
+    margin: 13px 0px;
+}
+.btnSearch:active,.btnSearch:focus,.selSearch:active,.selSearch:focus{
+    outline: none;
+}
+.optSearch{
+    color: rgb(15, 15, 49);
+}
+.btnSearch:hover{
+    color: rgb(255, 115, 0);
+    background-color: rgb(255, 221, 194);
+    transition: ease-in-out 300ms;
+    border-color: rgb(255, 115, 0);
+}
+.divFA{
+    width: 100%;
+    text-align: right;
+    color: rgb(255, 115, 0);
+    font-size: 20px;
+    padding-right: 45px;
+    padding-top: 7px;
+}
+.h3search{
+    color: rgb(15, 15, 49);
+    font-weight: bold;
+    font-family: "Audiowild";
+    margin-top:6%;
+}
+.divConc{
+    text-align: center;
+    margin: 20px 0px;
+    color: rgb(15, 15, 49);
+    font-size: 25px;
+    font-weight: bold;
+}
+.rowCons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    position: static;
+}
+.fDivSoldes{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 49);
+    border-top-left-radius: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgTravel1{
+    width: 100%;
+    height: 400px;
+    z-index: 3;
+    position: relative;
+}
+.rSoldes{
+    height: 100%;
+}
+.cSoldes{
+    height: 100%;
+    padding: 0px !important;
+}
+.divSoldes{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 33%;
+    padding-right: 40px;
+    background-color: rgb(15, 15, 49);
+    position: relative;
+    z-index: 4;
+    margin-left: 170px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.hSoldesTitle{
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    font-family: "Audiowide";
+}
+.hsoldes{
+    color: rgb(255, 172, 103);
+    font-family: "Audiowide";
+}
+.umbrella{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 165px;
+    transform: rotate(35deg);
+}
+
+
+
+/* media */
+@media (max-width: 768px){
+    .searchDiv{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .divSearchMain{
+        width: 95%;
+    }
+    .fDivSoldes{
+        background-color: white;
+        border-top-left-radius: 0%;
+        height: 100%;
+    }
+    .umbrella{
+        display: none;
+    }
+    .divSoldes{
+        padding-top: 23%;
+        padding-right:0px;
+        position: static;
+        z-index: auto;
+        margin-left: 0px;
+        border-radius: 0%;
+    }
+    .imgTravel1{
+        z-index: auto;
+        position: static;
+        height: 50%;
+    }
+}
+@media(max-width: 768px){
+    .divSoldes{
+        padding-top: 28%;
+    }
+}

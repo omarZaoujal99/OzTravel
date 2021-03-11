@@ -1,0 +1,32 @@
+.foot{
+    background-color: rgb(255, 115, 0);
+    margin-top: 50px;
+}
+.h2Foot{
+    color: white;
+    font-family: "Sofia";
+    font-weight: bold;
+    margin-top: 50px;
+}
+.afoot{
+    color: rgb(255, 203, 161);
+}
+.afoot:hover{
+    color: rgb(15, 15, 49);
+}
+.pfoot{
+    color: rgb(255, 203, 161);
+}
+.pfoot2{
+    color: white;
+}
+.hrfoot{
+    border-color: rgb(15, 15, 49);
+}
+.rowf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}

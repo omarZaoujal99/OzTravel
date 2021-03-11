@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(206, 206, 206);
+}
+.mainAdmin{
+    width: 100%;
+    min-height: 500px;
+    padding: 40px;
+}
+.divAdmin{
+    background-color: white;
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+.h2Admin{
+    background-color: transparent;
+    font-family: "Audiowide";
+    text-decoration: underline;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    border-bottom: 1px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+
+/* under the table */
+.btns{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.btnSubAdmin{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: ease-in-out 250ms;
+    font-weight: bold;
+    font-family: serif;
+}
+.btnSubAdmin2{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    transition: ease-in-out 250ms;
+    font-weight: bold;
+    font-family: serif;
+}
+.btnSubAdmin:hover,.btnSubAdmin2:hover{
+    background-color: rgb(160, 160, 160);
+    color: black;
+    transition: ease-in-out 250ms;
+}
+.btnSubAdmin:active,.btnSubAdmin:focus,.inpform1:active,.inpform1:focus,.btnSubAdmin2:active,.btnSubAdmin2:focus{
+    outline: none;
+}
+.divForms,.divForms2,.divForms3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 100px;
+    padding: 50px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+.divForms,.divForms2,.divForms3{
+    display: none;
+}
+.inpform1{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding-inline-start: 5px;
+    height: 40px;
+    border-bottom: 3px ridge black;
+    margin-bottom: 30px;
+}
+.inpform1:hover{
+    border-bottom-color: rgb(160, 160, 160);
+}
+.lblRem{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif;
+    padding-right: 10px;
+}
+
+
+/* pagination */
+.pagination2{
+    background-color: transparent;
+}
+.ulPagination{
+    background-color: transparent;
+}

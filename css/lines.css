@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mainLines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+}
+.foot{
+    margin-top: 0px !important;
+    background-color: rgb(15, 15, 49) !important;
+}
+.hrfoot{
+    border-color: white !important;
+}
+.fDivLines{
+    width: 90%;
+    min-height: 100px;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(240, 240, 240);
+    outline: 1px ridge rgb(204, 204, 204);
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+    text-align: center;
+}
+.btnBack{
+    border: none;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: rgb(15, 15, 49);
+    font-weight: bold;
+    font-family: "Audiowide";
+    font-size: 19px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: ease-in-out 250ms;
+}
+.btnBack:active,.btnBack:focus,.buyBtn:focus,.buyBtn:active{
+    outline: none;
+}
+.btnBack:hover{
+    color: rgb(255, 199, 153);
+    transition: ease-in-out 250ms;
+    border: 1px solid rgb(255, 199, 153);
+}
+.buyBtn:hover{
+    background-color: rgb(15, 15, 49);
+    color: rgb(255, 199, 153);
+    transition: ease-in-out 250ms;
+    border: 1px solid rgb(255, 199, 153);
+}
+.table1{
+    width: 100%;
+}
+.table1, .tdh{
+    border: 2px solid rgb(15, 15, 49);
+    border-collapse: collapse;
+    font-family: serif;
+    color: rgb(15, 15, 49);
+    font-weight: bold;
+}
+.tdr{
+    border: 2px solid rgb(15, 15, 49);
+    font-size: 17px;
+    color: black;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buyBtn{
+    border: none;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(15, 15, 49);
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    font-family: "Audiowide";
+    font-size: 19px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: ease-in-out 250ms;
+}
+.inpNum{
+    width: 45px;
+    padding-inline-start: 5px;
+}
+.divFormLines{
+    margin-top: 25px;
+}
+.lblCount{
+    font-weight: bold;
+    font-family: serif;
+    color: rgb(15, 15, 49);
+    font-size: 22px;
+}
+.ta{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(15, 15, 49);
+    font-weight: bold;
+    font-family: "Audiowide";
+}
+.olLines{
+    list-style: none;
+}
+.pNotice{
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.inpDate{
+    width: 169px;
+    padding-inline-start: 15px;
+}
+
+
+/* media */
+@media (max-width: 576px){
+    .fDivLines{
+        width: 100%;
+        padding: 5px;
+        margin: 30px 10px;
+    }
+    .tdh{
+        font-size: 15px;
+    }
+    .tdr{
+        font-size: 15px;
+        font-weight: 150;
+    }
+}
